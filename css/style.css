@@ -27,7 +27,7 @@ a {
 body {
 	margin: auto;
 	max-width: 1400px;
-	padding: 0 3.125rem;
+	padding: 0 3.13rem;
 	background: var(--color-six);
 	font-family: "Raleway", sans-serif;
 }
@@ -43,18 +43,18 @@ header {
 
 .logo {
 	padding: 0;
-	width: 3.818rem;
+	width: 3.8rem;
 }
 
 .menu {
 	display: flex;
-	width: 20.53756rem;
+	width: 20.5rem;
 	margin: 0;
 }
 
 .menu ol {
 	width: 100%;
-	height: 3.1875rem;
+	height: 3.2rem;
 	display: flex;
 	flex-direction: row;
 	margin-top: 0;
@@ -95,10 +95,10 @@ h2,
 h3 {
 	font-style: normal;
 	font-weight: 700;
-	font-size: 22px;
-	line-height: 26px;
-	color: #000000;
-	margin: 0 0 8px 0;
+	font-size: 1.4rem;
+	line-height: 1.6rem;
+	color: var(--color-five);
+	margin: 0 0 0.5rem 0;
 	letter-spacing: 0em;
 	text-align: left;
 }
@@ -107,16 +107,16 @@ h4,
 h5 {
 	font-style: normal;
 	font-weight: 400;
-	font-size: 16px;
-	line-height: 19px;
-	color: #000000;
-	margin: 0 0 20px 0;
+	font-size: 1rem;
+	line-height: 1.18rem;
+	color: var(--color-five);
+	margin: 0 0 1.25rem 0;
 }
 
 /****** Info ***********/
 .information {
 	width: 100%;
-	padding-top: 1.88rem;
+	padding-top: 1.8rem;
 }
 
 .information p {
@@ -127,7 +127,7 @@ h5 {
 
 /**Search**/
 .search-bar {
-	padding-top: 2.19rem;
+	padding-top: 2rem;
 }
 
 button .fa-magnifying-glass {
@@ -135,45 +135,45 @@ button .fa-magnifying-glass {
 }
 
 .content-search {
-	width: 20.75rem;
+	width: 20rem;
 	display: flex;
 }
 
 .content-search i {
-	background: #f2f2f2;
-	padding: 0.625rem 0.813rem;
-	border-radius: 15px 0 0 15px;
+	background: var(--color-four);
+	padding: 0.6rem 0.8rem;
+	border-radius: 1rem 0 0 1rem;
 }
 
 .content-search input {
-	border: 1px solid #f2f2f2;
-	font-size: 16px;
+	border: 1px solid var(--color-four);
+	font-size: 1rem;
 	font-weight: bold;
-	padding: 8px 0 7px 10px;
-	margin-left: -5px;
+	padding: 0.5rem 0 0.5rem 0.5rem;
+	margin-left: -0.3rem;
 	outline: none;
 }
 
 .button-search {
-	border-radius: 0 14px 14px 0;
-	background-color: #0065fc;
+	border-radius: 0 0.875rem 0.875rem 0;
+	background-color: var(--color-one);
 	border: none;
-	color: #ffff;
+	color: var(--color-six);
 	font-weight: bold;
-	font-size: 16px;
-	padding: 9px 17px 8px 17px;
+	font-size: 1rem;
+	padding: 0.5rem 1rem 0.5rem 1rem;
 	cursor: pointer;
 }
 
 /**Filter**/
 .filter {
 	display: flex;
-	padding-top: 2.19rem;
+	padding-top: 2.2rem;
 	align-items: center;
 }
 
 .filter h2 {
-	font-size: 18px;
+	font-size: 1.1rem;
 	display: flex;
 	align-items: center;
 	padding: 0;
@@ -184,7 +184,7 @@ button .fa-magnifying-glass {
 	text-decoration: none;
 	display: flex;
 	flex-wrap: nowrap;
-	color: #000;
+	color: var(--color-five);
 }
 
 .filters {
@@ -193,52 +193,52 @@ button .fa-magnifying-glass {
 }
 
 .btn-filter {
-	height: 50px;
-	padding-left: 10px;
-	padding-right: 20px;
-	border: 2px solid #f2f2f2;
-	border-radius: 25px;
+	height: 3.1rem;
+	padding-left: 0.6rem;
+	padding-right: 1.25rem;
+	border: 2px solid var(--color-four);
+	border-radius: 1.5rem;
 	flex-wrap: nowrap;
 	display: flex;
 	align-items: center;
 	font-weight: 700;
-	font-size: 17px;
+	font-size: 1rem;
 	margin-left: 0.9rem;
 	cursor: pointer;
 }
 
 .btn-filter .fa-solid {
-	font-size: 22px;
-	color: #0065fc;
-	margin-right: 10px;
+	font-size: 1.4rem;
+	color: var(--color-one);
+	margin-right: 0.6rem;
 }
 
 .btn-filter:hover {
-	background-color: #deebff;
+	background-color: var(--color-two);
 }
 
 /**Tips sur les logements**/
 .tips-logement {
 	display: flex;
 	align-items: center;
-	padding-top: 2.19rem;
+	padding-top: 2.2rem;
 }
 
 .tips-logement i {
-	border: 1px solid #d9d9d9;
+	border: 1px solid var(--color-three);
 	border-radius: 50%;
-	width: 24px;
-	height: 24px;
+	width: 1.5rem;
+	height: 1.5rem;
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	color: #0065fc;
+	color: var(--color-one);
 }
 
 .logement {
-	margin-left: 11px;
-	font-size: 16px;
-	color: #000000;
+	margin-left: 0.7rem;
+	font-size: 1rem;
+	color: var(--color-five);
 }
 
 /****** Hébergement et Populaire ***********/
