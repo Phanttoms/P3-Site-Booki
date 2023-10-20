@@ -87,11 +87,12 @@ header {
 	display: flex;
 	width: 20.5rem;
 	margin: 0;
+	height: auto;
 }
 
 .menu ul {
 	width: 100%;
-	height: 3.2rem;
+	height: 3.9rem;
 	display: flex;
 	flex-direction: row;
 	margin-top: 0;
