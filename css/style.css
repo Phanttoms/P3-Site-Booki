@@ -32,6 +32,42 @@ body {
 	font-family: "Raleway", sans-serif;
 }
 
+h1,
+h2 {
+	font-style: normal;
+	font-weight: 700;
+	font-size: 1.4rem;
+	line-height: 1.6rem;
+	color: var(--color-five);
+	margin: 0 0 0.5rem 0;
+	letter-spacing: 0em;
+	text-align: left;
+}
+
+h3 {
+	font-size: 1rem;
+	font-style: normal;
+	font-weight: 700;
+	line-height: normal;
+	color: var(--color-five);
+}
+
+h4 {
+	font-size: 1.125rem;
+	font-style: normal;
+	font-weight: 700;
+	line-height: normal;
+	color: var(--color-five);
+}
+
+p {
+	font-size: 0.8rem;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+	color: var(--color-five);
+}
+
 /****** Header ***********/
 header {
 	display: flex;
@@ -39,10 +75,11 @@ header {
 	width: 100%;
 	align-items: center;
 	margin: 0;
+	height: 4.9rem;
 }
 
 .logo {
-	padding: 0;
+	margin: 1.8rem 0 1.8rem 0;
 	width: 3.8rem;
 }
 
@@ -85,43 +122,6 @@ header {
 	border-top: 2px solid var(--color-one);
 }
 
-/****** Main ***********/
-h1,
-h2 {
-	font-style: normal;
-	font-weight: 700;
-	font-size: 1.4rem;
-	line-height: 1.6rem;
-	color: var(--color-five);
-	margin: 0 0 0.5rem 0;
-	letter-spacing: 0em;
-	text-align: left;
-}
-
-h3 {
-	font-size: 1rem;
-	font-style: normal;
-	font-weight: 700;
-	line-height: normal;
-	color: var(--color-five);
-}
-
-h4 {
-	font-size: 1.125rem;
-	font-style: normal;
-	font-weight: 700;
-	line-height: normal;
-	color: var(--color-five);
-}
-
-p {
-	font-size: 0.8rem;
-	font-style: normal;
-	font-weight: 400;
-	line-height: normal;
-	color: var(--color-five);
-}
-
 /****** Info ***********/
 .information {
 	width: 100%;
@@ -146,7 +146,7 @@ button .fa-magnifying-glass {
 .content-search {
 	display: flex;
 	align-items: center;
-	width: 23.5625rem;
+	width: 23.5rem;
 	height: 3rem;
 }
 
@@ -175,6 +175,11 @@ button .fa-magnifying-glass {
 	width: 23.5625rem;
 	height: 3rem;
 	text-align: center;
+}
+
+.content-search input::placeholder {
+	color: var(--color-five);
+	opacity: 1;
 }
 
 .button-search {
@@ -321,7 +326,7 @@ button .fa-magnifying-glass {
 	border-radius: 1.25rem;
 	margin: 1.8rem 0 0 0;
 	background: var(--color-six);
-	box-shadow: 0 0.1rem 0.9rem rgba(0, 0, 0, 0.1);
+	box-shadow: 0 0.1rem 0.9rem 0 rgba(0, 0, 0, 0.1);
 }
 
 .hbg-card h3,
@@ -334,12 +339,12 @@ button .fa-magnifying-glass {
 .populaires {
 	background-color: var(--color-four);
 	display: flex;
-	width: 26.8125rem;
-	padding: 1.875rem;
+	width: 26.8rem;
+	padding: 1.8rem;
 	flex-direction: column;
 	align-items: center;
 	align-self: stretch;
-	border-radius: 0.9375rem;
+	border-radius: 0.9rem;
 }
 
 .populaires-title {
@@ -370,23 +375,24 @@ button .fa-magnifying-glass {
 	align-items: center;
 	align-self: stretch;
 	border-radius: 1.25rem;
-	background: #fff;
+	background: var(--color-six);
 	width: 100%;
 	margin-top: 1.8rem;
+	box-shadow: 0 0.1rem 0.9rem 0 rgba(0, 0, 0, 0.1);
 }
 
 .populaires-cards img {
 	width: 7.6rem;
 	height: 9rem;
 	border-radius: 1.25rem 0rem 0rem 1.25rem;
-	border: 5px solid var(--White, #fff);
+	border: 5px solid var(--color-six);
 	object-fit: cover;
 }
 
 .populaires-cards .card-content {
 	display: flex;
 	width: 15rem;
-	height: 8.375rem;
+	height: 8.3rem;
 	flex-direction: column;
 	align-items: flex-start;
 	justify-content: space-between;
@@ -397,13 +403,14 @@ button .fa-magnifying-glass {
 	display: flex;
 	flex-direction: column;
 	align-items: flex-start;
-	gap: 0.3125rem;
+	gap: 0.3rem;
 	flex: 1 0 0;
 	align-self: stretch;
 }
 
 .populaires-cards .card-title {
-	margin-bottom: 4px;
+	margin-bottom: 0.25rem;
+	margin-top: 0.5rem;
 }
 
 .populaires-cards .card-subtitle {
@@ -411,5 +418,5 @@ button .fa-magnifying-glass {
 }
 
 .populaires-cards .card-rating {
-	margin-bottom: 5px;
+	margin-bottom: 0.3rem;
 }
