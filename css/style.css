@@ -114,6 +114,14 @@ h4 {
 	color: var(--color-five);
 }
 
+p {
+	font-size: 0.8rem;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+	color: var(--color-five);
+}
+
 /****** Info ***********/
 .information {
 	width: 100%;
@@ -128,7 +136,7 @@ h4 {
 
 /**Search**/
 .search-bar {
-	padding-top: 2rem;
+	padding-top: 2.1rem;
 }
 
 button .fa-magnifying-glass {
@@ -138,6 +146,8 @@ button .fa-magnifying-glass {
 .content-search {
 	display: flex;
 	align-items: center;
+	width: 23.5625rem;
+	height: 3rem;
 }
 
 .content-search i {
@@ -145,7 +155,7 @@ button .fa-magnifying-glass {
 	padding: 0.6rem 0.8rem;
 	border-radius: 1rem 0 0 1rem;
 	width: 3.125rem;
-	height: 3.0625rem;
+	height: 3rem;
 	flex-shrink: 0;
 }
 
@@ -163,7 +173,7 @@ button .fa-magnifying-glass {
 	margin-left: -0.3rem;
 	outline: none;
 	width: 23.5625rem;
-	height: 3.0625rem;
+	height: 3rem;
 	text-align: center;
 }
 
@@ -176,7 +186,7 @@ button .fa-magnifying-glass {
 	font-size: 1rem;
 	padding: 0.5rem 1rem 0.5rem 1rem;
 	cursor: pointer;
-	height: 3.0625rem;
+	height: 3rem;
 }
 
 /**Filter**/
@@ -260,6 +270,16 @@ button .fa-magnifying-glass {
 	display: flex;
 	gap: 2.5rem;
 	margin-top: 2.1rem;
+	width: 100%;
+	height: auto;
+}
+
+.fa-star {
+	color: var(--color-one);
+}
+
+.fa-star:last-of-type {
+	color: var(--color-four);
 }
 
 .hebergements-and-populaires h4 {
@@ -268,7 +288,7 @@ button .fa-magnifying-glass {
 
 /**Hébergement**/
 .hebergements {
-	width: 70%;
+	width: 100%;
 	padding: 1.8rem;
 	height: auto;
 	display: flex;
@@ -310,41 +330,37 @@ button .fa-magnifying-glass {
 	padding-top: 0.3rem;
 }
 
-.hbg-card p {
-	font-size: 0.8rem;
-	font-style: normal;
-	font-weight: 400;
-	line-height: normal;
-	color: var(--color-five);
-}
-
 /**Populaire**/
 .populaires {
-	width: 34%;
 	background-color: var(--color-four);
-	padding: 1.8rem;
-	border-radius: 0.9rem;
 	display: flex;
+	width: 26.8125rem;
+	padding: 1.875rem;
 	flex-direction: column;
 	align-items: center;
-	gap: 1.875rem;
 	align-self: stretch;
+	border-radius: 0.9375rem;
 }
 
 .populaires-title {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	gap: 3.2rem;
-	align-self: stretch;
+	width: 100%;
+	height: auto;
+}
+
+.fa-chart-line {
+	color: var(--color-one);
 }
 
 .populaires-cards {
 	display: flex;
 	flex-direction: column;
 	align-items: flex-start;
-	gap: 1.875rem;
 	align-self: stretch;
+	width: 100%;
+	height: auto;
 }
 
 .populaires-cards .card {
@@ -355,27 +371,38 @@ button .fa-magnifying-glass {
 	align-self: stretch;
 	border-radius: 1.25rem;
 	background: #fff;
+	width: 100%;
+	margin-top: 1.8rem;
 }
 
 .populaires-cards img {
-	width: 7.6875rem;
+	width: 7.6rem;
 	height: 9rem;
 	border-radius: 1.25rem 0rem 0rem 1.25rem;
 	border: 5px solid var(--White, #fff);
+	object-fit: cover;
 }
 
 .populaires-cards .card-content {
 	display: flex;
-	width: 15.375rem;
+	width: 15rem;
 	height: 8.375rem;
-	padding: 0.625rem 0.3125rem 0.3125rem 0.9375rem;
 	flex-direction: column;
 	align-items: flex-start;
-	gap: 1.5rem;
+	justify-content: space-between;
+	padding: 0 0 0 0.9rem;
+}
+
+.car-txt {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	gap: 0.3125rem;
+	flex: 1 0 0;
+	align-self: stretch;
 }
 
 .populaires-cards .card-title {
-	margin-top: 10px;
 	margin-bottom: 4px;
 }
 
