@@ -327,7 +327,7 @@ button .fa-magnifying-glass {
 	border-radius: 1.25rem;
 	margin: 1.8rem 0 0 0;
 	background: var(--color-six);
-	box-shadow: 0 0.1rem 0.9rem 0 rgba(0, 0, 0, 0.1);
+	box-shadow: 0px 3px 15px 0px rgba(0, 0, 0, 0.1);
 }
 
 .hbg-card h3,
@@ -379,7 +379,7 @@ button .fa-magnifying-glass {
 	background: var(--color-six);
 	width: 100%;
 	margin-top: 1.8rem;
-	box-shadow: 0 0.1rem 0.9rem 0 rgba(0, 0, 0, 0.1);
+	box-shadow: 0px 3px 15px 0px rgba(0, 0, 0, 0.1);
 }
 
 .populaires-cards img {
@@ -431,7 +431,7 @@ button .fa-magnifying-glass {
 	padding: 1.8rem;
 	width: 100%;
 	height: auto;
-	gap: 1.8rem;
+	margin-bottom: 2.1rem;
 }
 
 .bigbox-imgs-activites {
@@ -442,13 +442,13 @@ button .fa-magnifying-glass {
 	height: auto;
 	flex-direction: row;
 	flex-wrap: wrap;
+	margin-top: 2.5rem;
 }
 
 .littlebox-img-activites {
 	display: flex;
 	width: 18rem;
 	height: 26rem;
-	margin-top: 1.8rem;
 	flex-direction: column;
 	justify-content: flex-end;
 	align-items: center;
@@ -462,4 +462,33 @@ button .fa-magnifying-glass {
 	align-self: stretch;
 	border-radius: 1.25rem 1.25rem 0rem 0rem;
 	object-fit: cover;
+}
+
+/****** Footer ***********/
+.big-box-footer {
+	display: flex;
+	align-items: flex-start;
+	align-self: stretch;
+	background: var(--color-four);
+}
+
+.little-box-footer {
+	display: flex;
+	padding: 1.25rem;
+	flex-direction: column;
+	align-items: flex-start;
+	flex: 1 0 0;
+	align-self: stretch;
+}
+
+.little-box-footer h4 {
+	margin: 0;
+}
+
+.little-box-footer p {
+	font-size: 1rem;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+	margin: 0.9rem 0 0 0;
 }
