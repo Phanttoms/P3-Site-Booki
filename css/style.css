@@ -292,6 +292,22 @@ button .fa-magnifying-glass {
 	margin: 1.8rem 0 0 0;
 }
 
+.hebergements-and-populaires p {
+	color: var(--color-five);
+	font-size: 0.8rem;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+}
+
+.hebergements-and-populaires .euro {
+	color: var(--color-five);
+	font-size: 0.8rem;
+	font-style: normal;
+	font-weight: 600;
+	line-height: normal;
+}
+
 /**Hébergement**/
 .hebergements {
 	width: 100%;
