@@ -450,6 +450,7 @@ button .fa-magnifying-glass {
 	width: 100%;
 	height: auto;
 	margin-bottom: 2.1rem;
+	box-sizing: border-box;
 }
 
 .bigbox-imgs-activites {
@@ -459,12 +460,18 @@ button .fa-magnifying-glass {
 	margin-top: 2.5rem;
 	width: 100%;
 	height: auto;
-	gap: 1.8rem;
+	justify-content: space-between;
+}
+
+.bigbox-imgs-activites a {
+	display: block;
+	width: 23%;
+	margin: 0.5rem;
 }
 
 .littlebox-img-activites {
 	display: flex;
-	width: 18rem;
+	width: 100%;
 	height: auto;
 	flex-direction: column;
 	justify-content: flex-start;
@@ -555,6 +562,10 @@ button .fa-magnifying-glass {
 		font-size: 0.8rem;
 	}
 
+	.bigbox-imgs-activites {
+		flex-wrap: wrap;
+	}
+
 	.littlebox-img-activites {
 		width: 11.5rem;
 		height: 16rem;
@@ -574,6 +585,8 @@ button .fa-magnifying-glass {
 
 	header {
 		flex-direction: column;
+		margin-bottom: 1.8rem;
+		height: 100%;
 	}
 
 	.menu {
@@ -598,6 +611,7 @@ button .fa-magnifying-glass {
 		padding-bottom: 1rem;
 		height: auto;
 		align-self: flex-end;
+		display: block;
 		border-bottom: solid 3px var(--color-four);
 	}
 
@@ -608,8 +622,7 @@ button .fa-magnifying-glass {
 	}
 
 	.information {
-		margin: 3rem 1.5rem 0 1.5rem;
-		padding-right: 3rem;
+		padding: 0 1.25rem;
 	}
 
 	.search-bar {
