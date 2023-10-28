@@ -202,14 +202,13 @@ button .fa-magnifying-glass {
 /**Filter**/
 .filter {
 	display: flex;
-	padding-top: 1.8rem;
 	align-items: center;
+	margin-top: 1.8rem;
 }
 
 .filter h2 {
 	font-size: 1.1rem;
 	display: flex;
-	align-items: center;
 	padding: 0;
 	margin: 0;
 }
@@ -238,7 +237,7 @@ button .fa-magnifying-glass {
 	align-items: center;
 	font-weight: 700;
 	font-size: 1rem;
-	margin: 0.9rem 0 0 0.9rem;
+	margin: 0 0 0 0.9rem;
 	cursor: pointer;
 }
 
